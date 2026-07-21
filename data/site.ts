@@ -13,13 +13,13 @@ export const site = {
     ],
   },
   contact: {
-    phone: process.env.NEXT_PUBLIC_PHONE ?? "+91 7510149574",
-    whatsapp: process.env.NEXT_PUBLIC_WHATSAPP ?? "917510149574",
-    email: process.env.NEXT_PUBLIC_EMAIL ?? "meenakshilekshmi7447@gmail.com",
-    maps: process.env.NEXT_PUBLIC_MAPS_URL ?? "https://maps.google.com/?q=Trivandrum,Kerala,India",
-    instagram: process.env.NEXT_PUBLIC_INSTAGRAM_URL ?? "",
-    facebook: process.env.NEXT_PUBLIC_FACEBOOK_URL ?? "",
-    youtube: process.env.NEXT_PUBLIC_YOUTUBE_URL ?? "",
+    phone: "+91 7510149574",
+    whatsapp: "917510149574",
+    email: "meenakshilekshmi7447@gmail.com",
+    maps: "https://maps.google.com/?q=Trivandrum,Kerala,India",
+    instagram: "",
+    facebook: "",
+    youtube: "",
   },
   courses: [
     {
