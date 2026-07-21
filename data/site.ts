@@ -54,6 +54,11 @@ export const journey = ["Book a Free Consultation", "Initial Assessment", "Perso
 
 export const skills = ["Spoken English", "Grammar", "Vocabulary", "Public Speaking", "Interview Preparation", "Communication Skills", "Confidence Building", "Mindfulness", "Personality Development", "Professional English"];
 
+export const testimonials: { name: string; text: string; detail?: string }[] = [
+  // Add real learner testimonials here, e.g.:
+  // { name: "Priya S.", text: "I finally feel confident speaking in meetings.", detail: "Software Engineer, Trivandrum" },
+];
+
 export const assessmentQuestions = [
   { q: "Choose the correct sentence.", options: ["She don't like tea.", "She doesn't like tea.", "She not liking tea.", "She not likes tea."], correct: 1 },
   { q: "Fill the blank: \"I ___ to the market yesterday.\"", options: ["go", "gone", "went", "goes"], correct: 2 },
