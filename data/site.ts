@@ -37,7 +37,7 @@ export const site = {
   ],
 };
 
-export const navItems = ["Home", "About", "Founder", "Why ORATO", "Courses", "Testimonials", "FAQ", "Contact"];
+export const navItems = ["Home", "About", "Founder", "Why ORATO", "Assessment", "Courses", "Testimonials", "FAQ", "Contact"];
 
 export const features = [
   ["Brain", "Psychology-Informed Teaching", "Learning methods that consider confidence, mindset, and emotional comfort."],
@@ -53,6 +53,24 @@ export const features = [
 export const journey = ["Book a Free Consultation", "Initial Assessment", "Personalised Learning Plan", "Live Interactive Sessions", "Guided Practice", "Confidence Development", "Fluent and Effective Communication"];
 
 export const skills = ["Spoken English", "Grammar", "Vocabulary", "Public Speaking", "Interview Preparation", "Communication Skills", "Confidence Building", "Mindfulness", "Personality Development", "Professional English"];
+
+export const assessmentQuestions = [
+  { q: "Choose the correct sentence.", options: ["She don't like tea.", "She doesn't like tea.", "She not liking tea.", "She not likes tea."], correct: 1 },
+  { q: "Fill the blank: \"I ___ to the market yesterday.\"", options: ["go", "gone", "went", "goes"], correct: 2 },
+  { q: "Which word means \"very happy\"?", options: ["Furious", "Ecstatic", "Anxious", "Indifferent"], correct: 1 },
+  { q: "Choose the correct question form.", options: ["Where you are going?", "Where are you going?", "Where you going are?", "You are going where?"], correct: 1 },
+  { q: "\"He has been working here ___ 2019.\" Choose the right word.", options: ["for", "since", "from", "at"], correct: 1 },
+  { q: "Pick the correctly spelled word.", options: ["Recieve", "Receive", "Receeve", "Receve"], correct: 1 },
+  { q: "Choose the more natural sentence for a job interview.", options: ["I am having five years experience.", "I have five years of experience.", "I having experience five years.", "Since five years I have experience."], correct: 1 },
+  { q: "\"Although it was raining, ___ we went out.\" What best completes this?", options: ["so", "but", "we", "(no word needed)"], correct: 3 },
+] as const;
+
+export const confidenceAreas = [
+  "Speaking with strangers or new people",
+  "Understanding fast, natural conversation",
+  "Writing emails or messages professionally",
+  "Speaking confidently in interviews or meetings",
+] as const;
 
 export const faqs = [
   ["Who can join ORATO English Academy?", "ORATO welcomes students, professionals, job seekers, homemakers, beginners, and anyone who wants to improve spoken or professional English."],
