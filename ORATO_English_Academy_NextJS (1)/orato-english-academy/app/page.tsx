@@ -1,0 +1,4 @@
+import { Header, Hero, MainSections, FloatingActions } from "@/components/ClientUI";
+import Footer from "@/components/Footer";
+import { faqs, site } from "@/data/site";
+export default function Page(){const jsonLd={"@context":"https://schema.org","@graph":[{"@type":"EducationalOrganization","name":site.name,"description":"Personalised online English coaching academy","areaServed":"India","address":{"@type":"PostalAddress","addressLocality":"Trivandrum","addressRegion":"Kerala","addressCountry":"IN"}},{"@type":"Person","name":site.founder.name,"jobTitle":site.founder.role,"worksFor":{"@type":"EducationalOrganization","name":site.name}},{"@type":"FAQPage","mainEntity":faqs.map(([q,a])=>({"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}}))}]};return <><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(jsonLd)}}/><Header/><main><Hero/><MainSections/></main><Footer/><FloatingActions/></>}
